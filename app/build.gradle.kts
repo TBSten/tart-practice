@@ -32,4 +32,6 @@ dependencies {
 
     // feature modules
     implementation(projects.ui.feature.example)
+
+    implementation(libs.tartCompose)
 }
