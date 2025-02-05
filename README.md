@@ -26,7 +26,7 @@ last updated: 2025/01/26
 以下を決めて変更作業を実施する。
 
 - アプリ名, applicationId
-    - デフォルトでは `your.projectPackage` になっています。
+    - デフォルトでは `me.tbsten.prac.tart` になっています。
     - **`updateAppNames` Gradle タスクを実行** して Gradle Project 名とアプリ名、applicationIdの定義とパッケージディレクトリ・パッケージ文を置換します。
 
 ```shell

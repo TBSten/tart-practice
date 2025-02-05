@@ -597,15 +597,15 @@ style:
       - reason: 'println does not allow you to configure the output stream. Use a logger instead.'
         value: 'kotlin.io.println'
       - value: 'androidx.navigation.compose.composable'
-        reason: 'Please use `your.projectPackage.ui.navigation.composable`'
+        reason: 'Please use `me.tbsten.prac.tart.ui.navigation.composable`'
       - value: 'androidx.navigation.compose.navigation'
-        reason: 'Please use `your.projectPackage.ui.navigation.navigation`'
+        reason: 'Please use `me.tbsten.prac.tart.ui.navigation.navigation`'
       - value: 'androidx.navigation.navigation'
-        reason: 'Please use `your.projectPackage.ui.navigation.navigation`'
+        reason: 'Please use `me.tbsten.prac.tart.ui.navigation.navigation`'
       - value: 'androidx.navigation.compose.dialog'
-        reason: 'Please use `your.projectPackage.ui.navigation.dialog`'
+        reason: 'Please use `me.tbsten.prac.tart.ui.navigation.dialog`'
       - value: 'androidx.navigation.compose.toRoute'
-        reason: 'Please use `your.projectPackage.ui.navigation.toRoute`'
+        reason: 'Please use `me.tbsten.prac.tart.ui.navigation.toRoute`'
   ForbiddenSuppress:
     active: false
     rules: [ ]

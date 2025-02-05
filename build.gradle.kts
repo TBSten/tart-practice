@@ -74,7 +74,7 @@ val updateAppNames by tasks.creating {
     doLast {
         // replace libs.versions.toml app-applicationId
         val newApplicationId = newApplicationIdProperty.orNull ?: return@doLast
-        val oldApplicationId = oldApplicationIdProperty.orNull ?: "your.projectPackage"
+        val oldApplicationId = oldApplicationIdProperty.orNull ?: "me.tbsten.prac.tart"
 
         println("newApplicationId: $newApplicationId")
         println("oldApplicationId: $oldApplicationId")
@@ -90,7 +90,7 @@ val updateAppNames by tasks.creating {
         val newPackage =
             newApplicationIdProperty.orNull ?: return@doLast
         val newPackagePath = newPackage.replace(".", "/")
-        val oldPackage = oldApplicationIdProperty.orNull ?: "your.projectPackage"
+        val oldPackage = oldApplicationIdProperty.orNull ?: "me.tbsten.prac.tart"
         val oldPackagePath = oldPackage.replace(".", "/")
         val oldPackageFiles =
             rootProject.fileTree(".") {

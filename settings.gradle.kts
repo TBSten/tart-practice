@@ -22,7 +22,7 @@ dependencyResolutionManagement {
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "AndroidProjectTemplate"
+rootProject.name = "TartPractice"
 include(":common")
 include(":common:testing")
 include(":tools:debug")
